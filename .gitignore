@@ -1,0 +1,25 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+
+# Editor
+.idea
+*.swp
+.vscode
+
+# Other
+.DS_Store
+wandb
+output
+
+.ipynb_checkpoints
+chunyl_scripts
+*.ipynb
+
+data/

@@ -1,0 +1,18 @@
+model_name: "gpt-5"
+api_base: "OPENAI_API_BASE"
+api_key: "OPENAI_API_KEY"
+api_version: "OPENAI_API_VERSION"
+
+reasoning_effort: "medium"
+seed: 42
+temperature: 1.0
+max_steps: 20
+max_retries: 8
+max_tokens: 32768
+
+frame_sampling_factor: 4
+overview_base: 16
+skim_base: 4
+focus_base: 4
+
+tools: ["overview", "skim", "focus"]
