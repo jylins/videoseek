@@ -1,10 +1,22 @@
 # VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking
 
-[Paper](https://arxiv.org/abs/2603.20185)
-[License](https://opensource.org/licenses/MIT)
+[![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2603.20185)
+[![License](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
-[Jingyang Lin](https://jylin.me/)1,2, [Jialian Wu](https://jialianwu.com/)1, [Jiang Liu](https://joellliu.github.io/)1, [Ximeng Sun](https://cs-people.bu.edu/sunxm/)1, [Ze Wang](https://zewang95.github.io/)1, [Xiaodong Yu](https://www.xiaodongyu.me/)1, [Jiebo Luo](https://www.cs.rochester.edu/u/jluo/)2, [Zicheng Liu](https://zicliu.wixsite.com/mysite)1, [Emad Barsoum](https://scholar.google.com/citations?user=bX1YILcAAAAJ)1  
-1AMD  2University of Rochester 
+<div>
+  <a href="https://jylin.me/">Jingyang Lin</a><sup>1,2</sup>,
+  <a href="https://jialianwu.com/">Jialian Wu</a><sup>1</sup>,
+  <a href="https://joellliu.github.io/">Jiang Liu</a><sup>1</sup>,
+  <a href="https://cs-people.bu.edu/sunxm/">Ximeng Sun</a><sup>1</sup>,
+  <a href="https://zewang95.github.io/">Ze Wang</a><sup>1</sup>,
+  <a href="https://www.xiaodongyu.me/">Xiaodong Yu</a><sup>1</sup>,
+  <a href="https://www.cs.rochester.edu/u/jluo/">Jiebo Luo</a><sup>2</sup>,
+  <a href="https://zicliu.wixsite.com/mysite">Zicheng Liu</a><sup>1</sup>,
+  <a href="https://scholar.google.com/citations?user=bX1YILcAAAAJ">Emad Barsoum</a><sup>1</sup>
+  <br>
+  <sup>1</sup>AMD&emsp; 
+  <sup>2</sup>University of Rochester&emsp; 
+</div>
 
 This repository contains the official implementation of the [VideoSeek](https://arxiv.org/abs/2603.20185) agent.
 
@@ -54,7 +66,7 @@ Notes:
 
 ### CLI
 
-Please command `videoseek-cli -h` for help:
+Please execute `videoseek-cli -h` for help:
 ```
 usage: videoseek [-h] --video_path VIDEO_PATH --user_query USER_QUERY [--subtitle_path SUBTITLE_PATH] [--output_dir OUTPUT_DIR] [--verbose] [--model_name MODEL_NAME] [--api_base API_BASE] [--api_key API_KEY] [--api_version API_VERSION]
                  [--reasoning_effort REASONING_EFFORT] [--seed SEED] [--temperature TEMPERATURE] [--max_tokens MAX_TOKENS] [--max_steps MAX_STEPS]
